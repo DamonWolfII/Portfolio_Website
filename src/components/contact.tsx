@@ -5,9 +5,10 @@ import { RiMessageFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import Image from 'next/image';
+import { IoMdRocket } from "react-icons/io";
 
 
-const Page = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -54,7 +55,7 @@ const Page = () => {
         <h2 className="text-3xl font-semibold mb-8 text-center">Connect with me </h2>
 
         <div className="flex flex-col lg:flex-row gap-12 justify-center">
-          {/* Form Section */}
+
           <div className="w-full lg:w-[600px] p-6 bg-white rounded-lg shadow-md">
             <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">
@@ -68,7 +69,7 @@ const Page = () => {
                   value={formData.firstName}
                   onChange={handleChange}
                   placeholder="Enter your First Name"
-                  className="w-full p-3 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -83,7 +84,7 @@ const Page = () => {
                   value={formData.lastName}
                   onChange={handleChange}
                   placeholder="Enter your Last Name"
-                  className="w-full p-3 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -98,7 +99,7 @@ const Page = () => {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="youremail@gmail.com"
-                  className="w-full p-3 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -112,27 +113,26 @@ const Page = () => {
                   value={formData.message}
                   onChange={handleChange}
                   placeholder="Enter your message"
-                  className="w-full p-3 border border-gray-300 text-black rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300  rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full bg-green-500  py-3 rounded-md hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 Submit
               </button>
             </form>
           </div>
 
-          {/* Contact Details Section */}
           <div className="w-full max-w-sm p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-black mb-4">Contact Details</h3>
             <div className="">
               <div>
                 <Image
                   className="rounded-full mx-auto"
-                  src="/profile.jpg" // Corrected path to image
+                  src="/profile.jpg" 
                   alt="Profile"
                   width={150}
                   height={150}
@@ -169,10 +169,17 @@ const Page = () => {
             </ul>
             
           </div>
+          <button onClick={()=>window.scroll({
+  top: 0,   
+  left: 0,    
+  behavior: 'smooth'
+})}>
+      <IoMdRocket className='animate-bounce' size={60}/>
+      </button>
         </div>
       </div>
     </div>
   );
 };
 
-export default Page;
+export default Contact;
