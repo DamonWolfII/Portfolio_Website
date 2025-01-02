@@ -104,7 +104,7 @@ const Contact = () => {
               </div>
 
               <div className="mb-4">
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="message" className="block text-sm font-medium mb-2">
                   Message
                 </label>
                 <textarea
@@ -119,7 +119,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full bg-green-500  py-3 rounded-md hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full bg-slate-700 text-white  py-3 rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 Submit
               </button>

@@ -39,18 +39,18 @@ const About = () => {
       <div className="p-6 bg-white shadow-md rounded-lg">
         <h1 className="text-3xl font-extrabold text-black mb-6">Skills</h1>
         <div className="grid grid-cols-4 gap-9 justify-items-center items-center">
-          <IoLogoJavascript size={50} className="text-yellow-500" />
-          <FaReact size={50} className="text-blue-500" />
-          <RiTailwindCssFill size={50} className="text-slate-900" />
-          <FaGithub size={50} className="text-gray-800" />
-          <FaHtml5 size={50} className="text-orange-600" />
-          <LuFigma size={50} className="text-purple-600" />
-          <FaFlutter size={50} className="text-blue-400" />
-          <SiAdobephotoshop size={50} className="text-blue-600" />
-          <RiNextjsLine size={50} className="text-black" />
-          <FaWordpress size={50} className="text-blue-600" />
-          <SiCanva size={50} className="text-blue-600" />
-          <FaJava size={50} className="text-orange-500" />
+          <IoLogoJavascript size={50} className="text-yellow-500 hover:animate-bounce cursor-pointer" />
+          <FaReact size={50} className="text-blue-500 hover:animate-bounce cursor-pointer" />
+          <RiTailwindCssFill size={50} className="text-slate-900 hover:animate-bounce cursor-pointer" />
+          <FaGithub size={50} className="text-gray-800 hover:animate-bounce cursor-pointer" />
+          <FaHtml5 size={50} className="text-orange-600 hover:animate-bounce cursor-pointer" />
+          <LuFigma size={50} className="text-purple-600 hover:animate-bounce cursor-pointer" />
+          <FaFlutter size={50} className="text-blue-400 hover:animate-bounce cursor-pointer" />
+          <SiAdobephotoshop size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
+          <RiNextjsLine size={50} className="text-black hover:animate-bounce cursor-pointer" />
+          <FaWordpress size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
+          <SiCanva size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
+          <FaJava size={50} className="text-orange-500 hover:animate-bounce cursor-pointer" />
         </div>
         <div className="mt-4">
         <h1 className="text-3xl font-extrabold text-black">Education</h1>

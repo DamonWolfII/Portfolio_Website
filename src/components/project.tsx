@@ -50,7 +50,7 @@ const Project = () => {
           </ul>
           <a
             href="#"
-            className="block px-4 py-2 bg-gray-400 text-white text-center rounded-lg cursor-not-allowed"
+           className="block px-4 py-2 bg-slate-800 text-white text-center rounded-lg hover:bg-slate-700 transition-colors"
           >
             Demo Not Available
           </a>
