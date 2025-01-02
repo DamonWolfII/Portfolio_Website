@@ -120,8 +120,9 @@ const Contact = () => {
               <button
                 type="submit"
                 className="w-full bg-slate-700 text-white  py-3 rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                
               >
-                Submit
+                Submit 
               </button>
             </form>
           </div>

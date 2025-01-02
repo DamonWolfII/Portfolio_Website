@@ -83,9 +83,9 @@ const Navbar = () => {
 
       <div className="flex gap-7 mt-6 md:mt-0 items-center md:flex-row cursor-pointer">
         <div className="hidden md:flex gap-10">
-          <a href="https://github.com/sangammgr88"><FaGithub size={30} /></a>
-          <a href="https://x.com/SanGaM46re"><FaTwitter size={30} /></a>
-          <a href="https://www.linkedin.com/in/sangam-magar-844aab260/"> <FaLinkedin size={30} /></a>
+          <a className='hover:text-slate-700' href="https://github.com/sangammgr88"><FaGithub size={30} /></a>
+          <a className='hover:text-slate-600' href="https://x.com/SanGaM46re"><FaTwitter size={30} /></a>
+          <a className='hover:text-blue-600' href="https://www.linkedin.com/in/sangam-magar-844aab260/"> <FaLinkedin size={30} /></a>
          
         </div>
 

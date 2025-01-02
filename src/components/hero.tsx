@@ -20,7 +20,7 @@ const Hero = () => {
         <p className='mt-4  text-lg'>
         Front-End Developer.
         </p>
-        <p className='mt-4  leading-relaxed'>
+        <p className='mt-4 text-start'>
           "Welcome to my portfolio! I am Sangam, a dedicated front-end developer with a knack for crafting visually appealing and highly functional websites. With over 6 months of hands-on experience in React.js and a strong foundation in web technologies, I bring creativity and technical expertise to every project. I'm also exploring new technologies and working on exciting projects like building an e-commerce website. Feel free to explore my work and connect with me!"
         </p>
         <div className='flex gap-5'>
