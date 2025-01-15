@@ -45,7 +45,7 @@ const Bar = () => {
               </div>
               <div className="flex justify-center gap-6 mb-6">
                 <a
-                  href="https://github.com/sangammgr88"
+                  href="https://github.com/kshitiz58"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-800 hover:text-gray-900 transition-colors"
@@ -53,43 +53,31 @@ const Bar = () => {
                   <FaGithub size={24} />
                 </a>
                 <a
-                  href="https://x.com/SanGaM46re"
+                  href="https://x.com/KshitizBabik"
                   className="text-black hover:text-black-400 transition-colors" 
                 >
                   <FaXTwitter size={24} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/sangam-magar-844aab260/"
+                  href="https://www.linkedin.com/in/kshitij-bishokarma/"
                   className="text-blue-700 hover:text-blue-600 transition-colors"
                 >
                   <FaLinkedin size={24} />
-                </a>
-                <a
-                  href="https://www.facebook.com/SanGaM.MaGaR.46/"
-                  className="text-blue-600 hover:text-blue-500 transition-colors"
-                >
-                  <FaFacebookSquare size={24} />
-                </a>
-                <a
-                  href="#"
-                  className="text-pink-600 hover:text-pink-400 transition-colors" 
-                >
-                  <FaInstagram size={24} />
                 </a>
               </div>
 
               <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-3">
                   <CgMail size={24} className="text-gray-700" />
-                  <span className="text-gray-700">Sangamtmagar46@gmail.com</span>
+                  <span className="text-gray-700">kshitizbabik.37@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <FaPhoneAlt size={24} className="text-gray-700" />
-                  <span className="text-gray-700">9810330979</span>
+                  <span className="text-gray-700">9816246451</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <GrLocationPin size={24} className="text-gray-700" />
-                  <span className="text-gray-700">Kathmandu, Shamakhusi</span>
+                  <span className="text-gray-700">Old Baneshwor, Kathmandu</span>
                 </div>
               </div>
 

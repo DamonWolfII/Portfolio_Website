@@ -16,13 +16,13 @@ const About = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 p-8 md:p-16 gap-8">
       {/* About Me Section */}
       <div className="p-6 bg-white shadow-md rounded-lg h-auto">
-        <h1 className="text-4xl font-extrabold text-black mb-6">About Me</h1>
-        <div className="text-2xl font-bold text-black mb-4">
-          <p>Sangam Thapa Magar</p>
-          <p>Front-End Developer</p>
+        <h1 className="text-2xl font-semibold text-black mb-6">About Me</h1>
+        <div className="text-xl font-semibold text-black mb-4">
+          <p>Kshitij Bishokarma</p>
+          <p>Java Developer</p>
         </div>
         <p className="leading-relaxed text-gray-700">
-          My expertise includes HTML, CSS, JavaScript, and React.js, backed by over six months of hands-on experience in building functional and visually appealing applications.
+          I have around 1+ year of experience as backend developer with domain JAVA.
         </p>
         <p className="leading-relaxed text-gray-700 mt-4">
           Currently, I’m pursuing a Bachelor's in BIT, which has provided me with a strong foundation in software development and problem-solving. My academic journey and projects, such as e-commerce platforms, travel guide apps, and online management systems, have sharpened my skills and fostered a deep interest in technology-driven solutions.
@@ -37,35 +37,33 @@ const About = () => {
       
       {/* Skills Section */}
       <div className="p-6 bg-white shadow-md rounded-lg">
-        <h1 className="text-3xl font-extrabold text-black mb-6">Skills</h1>
+        <h1 className="text-2xl font-semibold text-black mb-6">Skills</h1>
         <div className="grid grid-cols-4 gap-9 justify-items-center items-center">
-          <IoLogoJavascript size={50} className="text-yellow-500 hover:animate-bounce cursor-pointer" />
+          <FaJava size={50} className="text-orange-500 hover:animate-bounce cursor-pointer" />
+          {/* <IoLogoJavascript size={50} className="text-yellow-500 hover:animate-bounce cursor-pointer" /> */}
           <FaReact size={50} className="text-blue-500 hover:animate-bounce cursor-pointer" />
           <RiTailwindCssFill size={50} className="text-slate-900 hover:animate-bounce cursor-pointer" />
           <FaGithub size={50} className="text-gray-800 hover:animate-bounce cursor-pointer" />
           <FaHtml5 size={50} className="text-orange-600 hover:animate-bounce cursor-pointer" />
           <LuFigma size={50} className="text-purple-600 hover:animate-bounce cursor-pointer" />
-          <FaFlutter size={50} className="text-blue-400 hover:animate-bounce cursor-pointer" />
+          {/* <FaFlutter size={50} className="text-blue-400 hover:animate-bounce cursor-pointer" /> */}
           <SiAdobephotoshop size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
-          <RiNextjsLine size={50} className="text-black hover:animate-bounce cursor-pointer" />
-          <FaWordpress size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
+          {/* <RiNextjsLine size={50} className="text-black hover:animate-bounce cursor-pointer" /> */}
+          {/* <FaWordpress size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" /> */}
           <SiCanva size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
-          <FaJava size={50} className="text-orange-500 hover:animate-bounce cursor-pointer" />
         </div>
         <div className="mt-4">
-        <h1 className="text-3xl font-extrabold text-black">Education</h1>
+        <h1 className="text-2xl font-semibold text-black">Education</h1>
         <div className="text-black mt-3">
           <h1 >
-           <p className="text-xl"> High School</p>
-            <p className="bg-slate-700 w-32 text-center rounded-md text-white">2018-2020</p>
-            <p>Mahendra Rastrya college</p>
+            <p className="text-xl font-bold text-black">+2</p>
+           <p className="text-xl">Liverpool International College [ 2017 - 2019 ] </p>
           </h1>
         </div>
         <div className="text-black mt-3">
-          <h1>
-            <p className="text-xl">Bachelor</p>
-            <p className="bg-slate-700 w-32 text-center rounded-md text-white">2022 - Present </p>
-            <p>Texas college of Management and It</p>
+          <h1 >
+          <p className="text-xl font-bold text-black">Bachelor</p>
+           <p className="text-xl">Phoenix College of Management [ 2021 - 2024 ] </p>
           </h1>
         </div>
         </div>

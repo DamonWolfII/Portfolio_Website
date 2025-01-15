@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='text-center mt-7'>
      <footer>
-    <p>&copy; <span id="year"></span> Sangam. All Rights Reserved.</p>
+    <p>&copy; <span id="year"></span> Kshitij 2025. All Rights Reserved.</p>
 </footer>
 
 <script>

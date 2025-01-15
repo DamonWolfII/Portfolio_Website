@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <div>
       <div className="container mx-auto p-6">
-        <h2 className="text-3xl font-semibold mb-8 text-center">Connect with me </h2>
+        <h2 className="text-2xl font-semibold mb-8 text-center">Connect with me </h2>
 
         <div className="flex flex-col lg:flex-row gap-12 justify-center">
 
@@ -120,9 +120,9 @@ const Contact = () => {
               <button
                 type="submit"
                 className="w-full bg-slate-700 text-white  py-3 rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                
+
               >
-                Submit 
+                Submit
               </button>
             </form>
           </div>
@@ -133,14 +133,14 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-full mx-auto"
-                  src="/profile.jpg" 
+                  src="/profile.jpg"
                   alt="Profile"
                   width={150}
                   height={150}
                 />
               </div>
               <div className="mt-7 text-center">
-                <p className="text-xl text-black font-bold">Sangam Thapa Magar</p>
+                <p className="text-xl text-black font-bold">Kshitij Bishokarma</p>
                 <p className="text-sm text-gray-600 mb-4">Kathmandu, Nepal</p>
               </div>
             </div>
@@ -161,22 +161,22 @@ const Contact = () => {
               <li className="flex items-center justify-center gap-2">
                 <IoMdCall className="text-blue-500" />
                 <a
-                  href="tel:+977-0000000000"
+                  href="tel:+977-9816246451"
                   className="text-black hover:underline hover:text-blue-500"
                 >
                   Call me
                 </a>
               </li>
             </ul>
-            
+
           </div>
-          <button onClick={()=>window.scroll({
-  top: 0,   
-  left: 0,    
-  behavior: 'smooth'
-})}>
-      <IoMdRocket className='animate-bounce' size={60}/>
-      </button>
+          <button onClick={() => window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          })}>
+            <IoMdRocket className='animate-bounce' size={60} />
+          </button>
         </div>
       </div>
     </div>
