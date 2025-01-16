@@ -29,7 +29,7 @@ const Hero = () => {
           Java Backend Developer.
         </p>
         <p className='mt-4 text-start'>
-          Welcome to my portfolio. I a&apos;m Kshitij, a dedicated backend developer with a knack for 
+          Welcome to my portfolio. I&apos;m Kshitij, a dedicated backend developer with a knack for 
           crafting visually appealing and highly functional websites. With over 1+ years of hands-on 
           experience in Java and a strong foundation in web technologies. 
           I bring creativity and technical expertise to every project. I&apos;m also exploring new 
