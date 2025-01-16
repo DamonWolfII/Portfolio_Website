@@ -52,7 +52,7 @@ const About = () => {
           <SiAdobephotoshop size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
           <SiCanva size={50} className="text-blue-600 hover:animate-bounce cursor-pointer" />
         </div>
-        <div className="mt-4">
+        <div className="mt-10">
           <h1 className="text-2xl font-semibold text-black">Education</h1>
           <div className="text-black mt-3">
             <h1 >
