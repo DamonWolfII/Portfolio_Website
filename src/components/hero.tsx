@@ -29,8 +29,12 @@ const Hero = () => {
           Java Backend Developer.
         </p>
         <p className='mt-4 text-start'>
-          &quot;Welcome to my portfolio&quot; I am Kshitij&ldquo; a dedicated backend developer with a knack for crafting visually appealing and highly functional websites. With over 1+ years of hands-on experience in Java and a strong foundation in web technologies&ldquo; 
-          I bring creativity and technical expertise to every project. I&apos;m also exploring new technologies and working on exciting projects like building an e-commerce website. Feel free to explore my work and connect with me&quot;
+          Welcome to my portfolio. I a&apos;m Kshitij, a dedicated backend developer with a knack for 
+          crafting visually appealing and highly functional websites. With over 1+ years of hands-on 
+          experience in Java and a strong foundation in web technologies. 
+          I bring creativity and technical expertise to every project. I&apos;m also exploring new 
+          technologies and working on exciting projects like building an e-commerce website. Feel free 
+          to explore my work and connect with me.
         </p>
         <div className='flex gap-5'>
           <button className='inline-block mt-6 bg-slate-600 text-white hover:bg-slate-700 transition-colors rounded-xl py-2 px-6 ' onClick={() => window.scroll({

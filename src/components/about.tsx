@@ -22,13 +22,20 @@ const About = () => {
           I have around 1+ year of experience as backend developer with domain JAVA.
         </p>
         <p className="leading-relaxed text-gray-700 mt-4">
-          Currently&lsquo; I&apos;m pursuing a Bachelor&apos;s in BIT, which has provided me with a strong foundation in software development and problem-solving. My academic journey and projects&lsquo; such as e-commerce platforms&lsquo; travel guide apps, and online management systems, have sharpened my skills and fostered a deep interest in technology-driven solutions.
+          Currently, I&apos;ve completed a Bachelor&apos;s in Information Technology, which has provided 
+          me with a strong foundation in software development and problem-solving. My academic journey 
+          and projects such as e-commerce platforms, travel guide apps, and online management 
+          systems, have sharpened my skills and fostered a deep interest in technology-driven solutions.
         </p>
         <p className="leading-relaxed text-gray-700 mt-4">
-          Collaboration and effective communication are at the heart of my work ethic. I pride myself on being a team player with strong time management and leadership abilities. I also enjoy engaging in innovative projects that address challenges in Nepal&lsquo; combining my technical expertise with a passion for meaningful impact.
+          Collaboration and effective communication are at the heart of my work ethic. I pride 
+          myself on being a team player with strong time management and leadership abilities. 
+          I also enjoy engaging in innovative projects that address challenges in Nepal 
+          combining my technical expertise with a passion for meaningful impact.
         </p>
         <p className="leading-relaxed text-gray-700 mt-4">
-          When I&apos;m not coding, I&apos;m exploring new technologies, brainstorming creative ideas&lsquo; and finding ways to turn concepts into reality.
+          When I&apos;m not coding, I&apos;m exploring new technologies, brainstorming creative 
+          ideas and finding ways to turn concepts into reality.
         </p>
       </div>
 
