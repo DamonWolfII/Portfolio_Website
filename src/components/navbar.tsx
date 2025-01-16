@@ -1,31 +1,33 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaTwitter, FaLinkedin, FaRegMoon } from 'react-icons/fa';
-import Bar from '@/components/Bar';
-import { MdOutlineMenu } from 'react-icons/md';
 import { IoIosSunny } from 'react-icons/io';
 import { useTheme } from 'next-themes';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen] = useState(false);
   const { setTheme, theme } = useTheme();
   const [currentTheme, setCurrentTheme] = useState(theme);
+  const [mounted, setMounted] = useState(false); // Track if the component is mounted
 
+  // Update the currentTheme after the component mounts
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Sync theme state with the useTheme hook
   useEffect(() => {
     setCurrentTheme(theme);
   }, [theme]);
 
+  // Update the theme class when it changes
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (mounted) {
       const themeClass = currentTheme === 'dark' ? 'dark' : 'light';
       document.documentElement.classList.add(themeClass);
       document.documentElement.classList.remove(currentTheme === 'dark' ? 'light' : 'dark');
     }
-  }, [currentTheme]);
-
-  const toggleMenu = () => {
-    setIsMenuOpen((prevState) => !prevState);
-  };
+  }, [currentTheme, mounted]);
 
   const toggleTheme = () => {
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -33,16 +35,10 @@ const Navbar = () => {
     setCurrentTheme(newTheme);
   };
 
+  if (!mounted) return null; // Ensure the theme is applied only after the client-side has mounted
+
   return (
     <div className="relative flex flex-col md:flex-row justify-between items-center m-6 mt-6">
-
-      {/* <div className="flex items-center justify-between mt-8 ml-7 w-full md:w-auto">
-        <Bar />
-        <button onClick={toggleMenu} className="p-2 md:hidden ml-4">
-          <MdOutlineMenu size={30} />
-        </button>
-      </div> */}
-
       <div
         className={`font-semibold ml-10 w-full md:w-auto flex flex-col md:flex-row items-center gap-6 md:gap-10 ${isMenuOpen ? 'block' : 'hidden'
           } md:block`}
@@ -79,13 +75,11 @@ const Navbar = () => {
         </ul>
       </div>
 
-
       <div className="flex gap-7 mt-6 md:mt-0 items-center md:flex-row cursor-pointer">
         <div className="hidden md:flex gap-10">
           <a className='hover:text-slate-700' href="https://github.com/kshitiz58"><FaGithub size={30} /></a>
           <a className='hover:text-slate-600' href="https://x.com/kshitizBabik"><FaTwitter size={30} /></a>
           <a className='hover:text-blue-600' href="https://www.linkedin.com/in/kshitij-bishokarma/"> <FaLinkedin size={30} /></a>
-
         </div>
 
         <div className="absolute -top-4 right-0 md:relative ">
@@ -100,7 +94,6 @@ const Navbar = () => {
             />
           </button>
         </div>
-
       </div>
     </div>
   );

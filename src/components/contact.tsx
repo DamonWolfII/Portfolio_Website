@@ -7,7 +7,6 @@ import { IoMdCall } from "react-icons/io";
 import Image from 'next/image';
 import { IoMdRocket } from "react-icons/io";
 
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -53,9 +52,7 @@ const Contact = () => {
     <div>
       <div className="container mx-auto p-6">
         <h2 className="text-2xl font-semibold mb-8 text-center">Connect with me </h2>
-
         <div className="flex flex-col lg:flex-row gap-12 justify-center">
-
           <div className="w-full lg:w-[600px] p-6 bg-white rounded-lg shadow-md">
             <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">

@@ -1,12 +1,12 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import Image from "next/image";
-import { FaGithub, FaLinkedin, FaFacebookSquare, FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";
 import { GrLocationPin } from "react-icons/gr";
 import { GoDotFill } from "react-icons/go";
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"; 
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { PiHandPeaceBold } from "react-icons/pi";
 
 const Bar = () => {
@@ -24,7 +24,7 @@ const Bar = () => {
     <div>
       <Sheet>
         <SheetTrigger>
-        <PiHandPeaceBold size={60} className='text-yellow-600' />
+          <PiHandPeaceBold size={60} className='text-yellow-600' />
         </SheetTrigger>
         <SheetContent>
           <SheetTitle>Profile Information</SheetTitle>
@@ -33,9 +33,9 @@ const Bar = () => {
               <div className="flex justify-center mb-6">
                 <Image
                   className="h-32 w-32 rounded-full object-cover shadow-md"
-                  src="/profile.jpg" 
+                  src="/profile.jpg"
                   alt="Profile"
-                  width={128} 
+                  width={128}
                   height={128}
                 />
               </div>
@@ -54,7 +54,7 @@ const Bar = () => {
                 </a>
                 <a
                   href="https://x.com/KshitizBabik"
-                  className="text-black hover:text-black-400 transition-colors" 
+                  className="text-black hover:text-black-400 transition-colors"
                 >
                   <FaXTwitter size={24} />
                 </a>
