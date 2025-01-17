@@ -30,7 +30,7 @@ const Contact = () => {
 
     if (form.current) {
       emailjs
-        .sendForm("service_n1ept4m", "template_pctp3x7", form.current, "vBN1eIVDxf_tHK1K0")
+        .sendForm("service_hzjvqbf", "template_dfmw9ti", form.current, "QZxzLybba8CLAySzD")
         .then(
           () => {
             console.log("SUCCESS!");
