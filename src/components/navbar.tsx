@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { FaGithub, FaTwitter, FaLinkedin, FaRegMoon } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaRegMoon } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 import { IoIosSunny } from 'react-icons/io';
 import { useTheme } from 'next-themes';
 
@@ -44,7 +45,7 @@ const Navbar = () => {
           } md:block`}
       >
         {/* big screen */}
-        <ul className=" flex-col md:flex-row gap-6 md:gap-10 hidden md:flex">
+        <ul className=" flex-col ml-[90px] md:flex-row gap-6 md:gap-10 hidden md:flex">
           <li>
             <button onClick={() => window.scroll({ top: 0, left: 0, behavior: 'smooth' })}>Home</button>
           </li>
@@ -78,18 +79,18 @@ const Navbar = () => {
       <div className="flex gap-7 mt-6 md:mt-0 items-center md:flex-row cursor-pointer">
         <div className="hidden md:flex gap-10">
           <a className='hover:text-slate-700' href="https://github.com/kshitiz58"><FaGithub size={30} /></a>
-          <a className='hover:text-slate-600' href="https://x.com/kshitizBabik"><FaTwitter size={30} /></a>
-          <a className='hover:text-blue-600' href="https://www.linkedin.com/in/kshitij-bishokarma/"> <FaLinkedin size={30} /></a>
+          <a className='hover:text-slate-600' href="https://x.com/kshitizBabik"><FaXTwitter size={30} /></a>
+          <a className='text-blue-500 hover:text-blue-600' href="https://www.linkedin.com/in/kshitij-bishokarma/"><FaLinkedin size={30} /></a>
         </div>
 
-        <div className="absolute -top-4 right-0 md:relative ">
+        <div className="absolute -top-4 right-1.5 md:relative ">
           <button onClick={toggleTheme} className="relative bg-transparent rounded-full focus:outline-none p-4">
             <IoIosSunny
-              className="absolute h-[2rem] w-[2rem] transition-all ease-in-out transform dark:rotate-180 dark:scale-0 dark:opacity-0 opacity-100"
-              size={20}
+              className="absolute mt-0.5 mr-0.5 transition-all ease-in-out transform dark:rotate-180 dark:scale-0 dark:opacity-0 opacity-100"
+              size={30}
             />
             <FaRegMoon
-              className="absolute transition-all duration-300 ease-in-out transform dark:rotate-0 dark:scale-100 dark:opacity-100 opacity-0"
+              className="absolute mt-2  ml-1 transition-all ease-in-out transform dark:rotate-0 dark:scale-100 dark:opacity-100 opacity-0"
               size={20}
             />
           </button>

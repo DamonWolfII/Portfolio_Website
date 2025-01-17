@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useRef, FormEvent } from 'react';
 import emailjs from "@emailjs/browser";
-import { RiMessageFill } from "react-icons/ri";
+import { FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import Image from 'next/image';
@@ -55,6 +55,7 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row gap-12 justify-center">
           <div className="w-full lg:w-[600px] p-6 bg-white rounded-lg shadow-md">
             <form ref={form} onSubmit={sendEmail}>
+            <h3 className="text-xl font-semibold text-center text-black mb-4">Send me a mail</h3>
               <div className="mb-4">
                 <label htmlFor="firstName" className="block text-sm text-black font-medium mb-2">
                   First Name
@@ -66,7 +67,7 @@ const Contact = () => {
                   value={formData.firstName}
                   onChange={handleChange}
                   placeholder="Enter your First Name"
-                  className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800"
                 />
               </div>
 
@@ -81,7 +82,7 @@ const Contact = () => {
                   value={formData.lastName}
                   onChange={handleChange}
                   placeholder="Enter your Last Name"
-                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800"
                 />
               </div>
 
@@ -96,7 +97,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="youremail@gmail.com"
-                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800"
                 />
               </div>
 
@@ -110,13 +111,13 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   placeholder="Enter your message"
-                  className="w-full p-3 border border-gray-300  rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-3 border border-gray-300  rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-slate-700 text-white  py-3 rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full bg-amber-500 text-white py-3 rounded-md hover:bg-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-800"
 
               >
                 Submit
@@ -125,7 +126,7 @@ const Contact = () => {
           </div>
 
           <div className="w-full max-w-sm p-6 bg-white rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-black mb-4">Contact Details</h3>
+            <h3 className="text-xl font-semibold text-center text-black mb-7">Contact Details</h3>
             <div className="">
               <div>
                 <Image
@@ -144,14 +145,14 @@ const Contact = () => {
 
             <ul className="space-y-3 text-center">
               <li className="flex items-center justify-center gap-2">
-                <RiMessageFill className="text-blue-500" />
-                <a href="#" className="text-black hover:underline hover:text-blue-500">
-                  Chat with me
+                <FaLinkedin className="text-blue-500" />
+                <a href="https://www.linkedin.com/in/kshitij-bishokarma/" className="text-black hover:underline hover:text-blue-500">
+                  Connect with me
                 </a>
               </li>
               <li className="flex items-center justify-center gap-2">
                 <FaXTwitter className="text-blue-500" />
-                <a href="#" className="text-black hover:underline hover:text-blue-500">
+                <a href="https://x.com/kshitizBabik" className="text-black hover:underline hover:text-blue-500">
                   Follow me
                 </a>
               </li>

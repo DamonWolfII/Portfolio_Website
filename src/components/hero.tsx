@@ -28,7 +28,7 @@ const Hero = () => {
         <p className='mt-2 font-semibold text-lg'>
           Java Backend Developer.
         </p>
-        <p className='mt-4 text-start'>
+        <p className='mt-4 text-justify'>
           Welcome to my portfolio. I&apos;m Kshitij, a dedicated backend developer with a knack for 
           crafting visually appealing and highly functional websites. With over 1+ years of hands-on 
           experience in Java and a strong foundation in web technologies. 
@@ -37,14 +37,14 @@ const Hero = () => {
           to explore my work and connect with me.
         </p>
         <div className='flex gap-5'>
-          <button className='inline-block mt-6 bg-slate-600 text-white hover:bg-slate-700 transition-colors rounded-xl py-2 px-6 ' onClick={() => window.scroll({
+          <button className='inline-block mt-6 bg-amber-500 text-white hover:bg-amber-600 transition-colors rounded-xl py-2 px-6 focus:outline-none focus:ring-2 focus:ring-amber-800' onClick={() => window.scroll({
             top: 2000,
             left: 0,
             behavior: 'smooth'
           })}>
             Want to work together?
           </button>
-          <button className='mt-6 bg-slate-600 text-white flex gap-2 rounded-xl py-2 px-6 hover:bg-slate-700' onClick={handleDownload}>Save Resume <FaChevronDown className='mt-1' />
+          <button className='mt-6 bg-amber-500 text-white flex gap-2 rounded-xl py-2 px-6 hover:bg-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-800' onClick={handleDownload}>Save Resume <FaChevronDown className='mt-1' />
           </button>
         </div>
       </div>

@@ -13,27 +13,27 @@ const About = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 p-8 md:p-16 gap-8">
       {/* About Me Section */}
       <div className="p-6 bg-white shadow-md rounded-lg h-auto">
-        <h1 className="text-2xl font-semibold text-black mb-6">About Me</h1>
-        <div className="text-xl font-semibold text-black mb-4">
+        <h1 className="text-2xl font-semibold text-black mb-3">About Me</h1>
+        {/* <div className="text-xl font-semibold text-black mb-4">
           <p>Kshitij Bishokarma</p>
           <p>Java Developer</p>
-        </div>
-        <p className="leading-relaxed text-gray-700">
+        </div> */}
+        <p className="leading-relaxed text-gray-700 text-justify">
           I have around 1+ year of experience as backend developer with domain JAVA.
         </p>
-        <p className="leading-relaxed text-gray-700 mt-4">
+        <p className="leading-relaxed text-gray-700 mt-4 text-justify">
           Currently, I&apos;ve completed a Bachelor&apos;s in Information Technology, which has provided 
           me with a strong foundation in software development and problem-solving. My academic journey 
           and projects such as e-commerce platforms, travel guide apps, and online management 
           systems, have sharpened my skills and fostered a deep interest in technology-driven solutions.
         </p>
-        <p className="leading-relaxed text-gray-700 mt-4">
+        <p className="leading-relaxed text-gray-700 mt-4 text-justify">
           Collaboration and effective communication are at the heart of my work ethic. I pride 
           myself on being a team player with strong time management and leadership abilities. 
           I also enjoy engaging in innovative projects that address challenges in Nepal 
           combining my technical expertise with a passion for meaningful impact.
         </p>
-        <p className="leading-relaxed text-gray-700 mt-4">
+        <p className="leading-relaxed text-gray-700 mt-4 text-justify">
           When I&apos;m not coding, I&apos;m exploring new technologies, brainstorming creative 
           ideas and finding ways to turn concepts into reality.
         </p>
@@ -56,14 +56,16 @@ const About = () => {
           <h1 className="text-2xl font-semibold text-black">Education</h1>
           <div className="text-black mt-3">
             <h1 >
-              <p className="text-xl font-bold text-black">+2</p>
-              <p className="text-xl">Liverpool International College [ 2017 - 2019 ] </p>
+              <p className="text-xl font-bold text-black">+2 Science</p>
+              <p className="text-xl">Liverpool International College </p>
+              <p>[ 2017 - 2019 ] </p>
             </h1>
           </div>
           <div className="text-black mt-3">
             <h1 >
-              <p className="text-xl font-bold text-black">Bachelor</p>
-              <p className="text-xl">Phoenix College of Management [ 2021 - 2024 ] </p>
+              <p className="text-xl font-bold text-black">Bachelor in Information Technolgoy</p>
+              <p className="text-xl">Phoenix College of Management </p>
+              <p>[ 2021 - 2024 ] </p>
             </h1>
           </div>
         </div>
