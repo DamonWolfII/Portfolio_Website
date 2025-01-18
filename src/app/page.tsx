@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 import Project from "@/components/project";
 import  Contact  from "@/components/contact";
 import Footer from "@/components/footer";
+import ScrollToTopButton from "@/components/scrolltop";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
    <Project/>
   <Contact/>
   <Footer/>
+  <ScrollToTopButton/>
    </div>
   );
 }
