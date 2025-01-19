@@ -165,7 +165,7 @@ const Contact = () => {
                 <p className="text-xl text-black dark:text-white font-bold">
                   Kshitij Bishokarma
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-100 mb-4">Kathmandu, Nepal</p>
+                <p className="text-sm text-gray-600 dark:text-gray-200 mb-4">Kathmandu, Nepal</p>
               </div>
             </div>
 
